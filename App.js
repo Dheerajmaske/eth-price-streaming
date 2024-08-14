@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     const connectWebSocket = () => {
       // WebSocket endpoint and token
-      const url = "wss://streaming.bitquery.io/graphql?token=ory_at_MxiHNgvdZLMovayda44GDGwgm9bFbraVK1AyqJGVMfM.xHzrpgVHxEGxIC_pJkVwX_dFn8EstrNDcbc92qU50gQ";
+      const url = "wss://streaming.bitquery.io/graphql?token=ory_at_.......";
       
       // Create a new WebSocket instance
       const ws = new WebSocket(url);
